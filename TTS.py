@@ -2,7 +2,7 @@ import asyncio
 from datetime import datetime
 import edge_tts
 
-class EnglishTTS:
+class TTS:
   def __init__(self, voice: str):
     self.voice = voice
 
